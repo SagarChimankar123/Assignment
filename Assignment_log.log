@@ -1,0 +1,885 @@
+2024-10-28T12:21:57.097+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30364 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T12:21:57.106+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T12:21:57.207+05:30  INFO 30364 --- [Assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-28T12:21:57.209+05:30  INFO 30364 --- [Assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-28T12:21:58.538+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T12:21:58.652+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 3 JPA repository interfaces.
+2024-10-28T12:21:59.512+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T12:21:59.535+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T12:21:59.536+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T12:21:59.692+05:30  INFO 30364 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T12:21:59.693+05:30  INFO 30364 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2483 ms
+2024-10-28T12:21:59.926+05:30  INFO 30364 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T12:22:00.074+05:30  INFO 30364 --- [Assignment] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T12:22:00.155+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T12:22:00.755+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T12:22:00.819+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T12:22:01.246+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69b1392d
+2024-10-28T12:22:01.249+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T12:22:03.026+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T12:22:03.110+05:30  INFO 30364 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:22:03.529+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T12:22:04.168+05:30  WARN 30364 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T12:22:06.221+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T12:22:06.314+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T12:22:06.329+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 10.044 seconds (process running for 12.129)
+2024-10-28T12:22:23.013+05:30  INFO 30364 --- [Assignment] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28T12:22:23.015+05:30  INFO 30364 --- [Assignment] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-28T12:22:23.019+05:30  INFO 30364 --- [Assignment] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-10-28T12:22:23.289+05:30 ERROR 30364 --- [Assignment] [http-nio-8080-exec-2] com.infy.Service.CustomerServiceImpl     : login service called
+2024-10-28T12:22:23.566+05:30 ERROR 30364 --- [Assignment] [http-nio-8080-exec-2] com.infy.Controller.CustomerController   : Login method call
+2024-10-28T12:41:33.481+05:30  WARN 30364 --- [Assignment] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m1s861ms177µs).
+2024-10-28T12:42:34.506+05:30  INFO 30364 --- [Assignment] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-28T12:42:34.666+05:30  INFO 30364 --- [Assignment] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:42:34.672+05:30  INFO 30364 --- [Assignment] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T12:42:34.693+05:30  INFO 30364 --- [Assignment] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T12:42:34.840+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30364 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T12:42:34.841+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T12:42:35.446+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T12:42:35.479+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 3 JPA repository interfaces.
+2024-10-28T12:42:35.656+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T12:42:35.657+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T12:42:35.658+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T12:42:35.734+05:30  INFO 30364 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T12:42:35.735+05:30  INFO 30364 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 887 ms
+2024-10-28T12:42:35.873+05:30  INFO 30364 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T12:42:35.881+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T12:42:35.909+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T12:42:35.911+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-10-28T12:42:35.954+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@292388a8
+2024-10-28T12:42:35.955+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-10-28T12:42:36.097+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T12:42:36.114+05:30  INFO 30364 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:42:36.330+05:30  WARN 30364 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T12:42:37.393+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T12:42:37.424+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T12:42:37.432+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 2.669 seconds (process running for 1243.246)
+2024-10-28T12:42:37.436+05:30  INFO 30364 --- [Assignment] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-28T12:44:20.501+05:30  INFO 30364 --- [Assignment] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-28T12:44:20.611+05:30  INFO 30364 --- [Assignment] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:44:20.612+05:30  INFO 30364 --- [Assignment] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-10-28T12:44:20.619+05:30  INFO 30364 --- [Assignment] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-10-28T12:44:20.701+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30364 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T12:44:20.702+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T12:44:20.924+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T12:44:20.947+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+2024-10-28T12:44:21.037+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T12:44:21.038+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T12:44:21.038+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T12:44:21.103+05:30  INFO 30364 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T12:44:21.103+05:30  INFO 30364 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 398 ms
+2024-10-28T12:44:21.144+05:30  INFO 30364 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T12:44:21.150+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T12:44:21.164+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T12:44:21.166+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-10-28T12:44:21.204+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12d048c2
+2024-10-28T12:44:21.205+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-10-28T12:44:21.295+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T12:44:21.305+05:30  INFO 30364 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:44:21.407+05:30  WARN 30364 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T12:44:22.285+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T12:44:22.303+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T12:44:22.308+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 1.638 seconds (process running for 1348.121)
+2024-10-28T12:44:22.309+05:30  INFO 30364 --- [Assignment] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-28T12:47:12.459+05:30  INFO 30364 --- [Assignment] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-28T12:47:12.574+05:30  INFO 30364 --- [Assignment] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:47:12.574+05:30  INFO 30364 --- [Assignment] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-10-28T12:47:12.581+05:30  INFO 30364 --- [Assignment] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-10-28T12:47:12.664+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30364 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T12:47:12.665+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T12:47:12.874+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T12:47:12.894+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
+2024-10-28T12:47:12.966+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T12:47:12.966+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T12:47:12.967+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T12:47:13.006+05:30  INFO 30364 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T12:47:13.008+05:30  INFO 30364 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 340 ms
+2024-10-28T12:47:13.047+05:30  INFO 30364 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T12:47:13.052+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T12:47:13.061+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T12:47:13.061+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-10-28T12:47:13.089+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d4baaa0
+2024-10-28T12:47:13.090+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-10-28T12:47:13.159+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T12:47:13.167+05:30  INFO 30364 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:47:13.305+05:30  WARN 30364 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T12:47:14.004+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T12:47:14.018+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T12:47:14.022+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 1.395 seconds (process running for 1519.872)
+2024-10-28T12:47:14.024+05:30  INFO 30364 --- [Assignment] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-28T12:47:24.796+05:30  INFO 30364 --- [Assignment] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-28T12:47:24.908+05:30  INFO 30364 --- [Assignment] [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:47:24.909+05:30  INFO 30364 --- [Assignment] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-10-28T12:47:24.917+05:30  INFO 30364 --- [Assignment] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-10-28T12:47:24.998+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30364 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T12:47:24.999+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T12:47:25.228+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T12:47:25.250+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
+2024-10-28T12:47:25.327+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T12:47:25.328+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T12:47:25.329+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T12:47:25.371+05:30  INFO 30364 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T12:47:25.372+05:30  INFO 30364 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 371 ms
+2024-10-28T12:47:25.405+05:30  INFO 30364 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T12:47:25.410+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T12:47:25.423+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T12:47:25.425+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-10-28T12:47:25.444+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ad39269
+2024-10-28T12:47:25.444+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-10-28T12:47:25.513+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T12:47:25.521+05:30  INFO 30364 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:47:25.602+05:30  WARN 30364 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T12:47:26.318+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T12:47:26.336+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T12:47:26.341+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 1.376 seconds (process running for 1532.211)
+2024-10-28T12:47:26.342+05:30  INFO 30364 --- [Assignment] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-28T12:47:57.212+05:30  INFO 30364 --- [Assignment] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-10-28T12:47:57.360+05:30  INFO 30364 --- [Assignment] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:47:57.361+05:30  INFO 30364 --- [Assignment] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-10-28T12:47:57.370+05:30  INFO 30364 --- [Assignment] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-10-28T12:47:57.475+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30364 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T12:47:57.475+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T12:47:57.812+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T12:47:57.835+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+2024-10-28T12:47:57.911+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T12:47:57.912+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T12:47:57.912+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T12:47:57.961+05:30  INFO 30364 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T12:47:57.961+05:30  INFO 30364 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 482 ms
+2024-10-28T12:47:58.002+05:30  INFO 30364 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T12:47:58.015+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T12:47:58.025+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T12:47:58.026+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-10-28T12:47:58.050+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fbb8ca3
+2024-10-28T12:47:58.051+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-10-28T12:47:58.109+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T12:47:58.117+05:30  INFO 30364 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:47:58.211+05:30  WARN 30364 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T12:47:59.072+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T12:47:59.088+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T12:47:59.092+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 1.667 seconds (process running for 1565.018)
+2024-10-28T12:47:59.094+05:30  INFO 30364 --- [Assignment] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-28T12:48:00.512+05:30  INFO 30364 --- [Assignment] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-28T12:48:00.631+05:30  INFO 30364 --- [Assignment] [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:48:00.631+05:30  INFO 30364 --- [Assignment] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-10-28T12:48:00.637+05:30  INFO 30364 --- [Assignment] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-10-28T12:48:00.718+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30364 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T12:48:00.718+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T12:48:00.944+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T12:48:00.966+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+2024-10-28T12:48:01.043+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T12:48:01.044+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T12:48:01.044+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T12:48:01.088+05:30  INFO 30364 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T12:48:01.089+05:30  INFO 30364 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 369 ms
+2024-10-28T12:48:01.122+05:30  INFO 30364 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T12:48:01.126+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T12:48:01.135+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T12:48:01.136+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2024-10-28T12:48:01.151+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b09a6ff
+2024-10-28T12:48:01.151+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2024-10-28T12:48:01.205+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T12:48:01.213+05:30  INFO 30364 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:48:01.294+05:30  WARN 30364 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T12:48:02.038+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T12:48:02.053+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T12:48:02.057+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 1.37 seconds (process running for 1567.988)
+2024-10-28T12:48:02.058+05:30  INFO 30364 --- [Assignment] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-28T12:49:10.640+05:30  INFO 30364 --- [Assignment] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-28T12:49:10.755+05:30  INFO 30364 --- [Assignment] [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:49:10.755+05:30  INFO 30364 --- [Assignment] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2024-10-28T12:49:10.762+05:30  INFO 30364 --- [Assignment] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2024-10-28T12:49:10.841+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30364 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T12:49:10.842+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T12:49:11.082+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T12:49:11.106+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
+2024-10-28T12:49:11.200+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T12:49:11.201+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T12:49:11.202+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T12:49:11.246+05:30  INFO 30364 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T12:49:11.247+05:30  INFO 30364 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 400 ms
+2024-10-28T12:49:11.283+05:30  INFO 30364 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T12:49:11.287+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T12:49:11.295+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T12:49:11.297+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-10-28T12:49:11.320+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a6bbb91
+2024-10-28T12:49:11.321+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-10-28T12:49:11.380+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T12:49:11.394+05:30  INFO 30364 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:49:11.484+05:30  WARN 30364 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T12:49:12.288+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T12:49:12.303+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T12:49:12.308+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 1.5 seconds (process running for 1638.358)
+2024-10-28T12:49:12.309+05:30  INFO 30364 --- [Assignment] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-28T12:49:17.898+05:30  INFO 30364 --- [Assignment] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-28T12:49:18.021+05:30  INFO 30364 --- [Assignment] [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:49:18.022+05:30  INFO 30364 --- [Assignment] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-10-28T12:49:18.028+05:30  INFO 30364 --- [Assignment] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-10-28T12:49:18.108+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30364 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T12:49:18.108+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T12:49:18.393+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T12:49:18.414+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
+2024-10-28T12:49:18.489+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T12:49:18.490+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T12:49:18.490+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T12:49:18.532+05:30  INFO 30364 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T12:49:18.532+05:30  INFO 30364 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 422 ms
+2024-10-28T12:49:18.565+05:30  INFO 30364 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T12:49:18.569+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T12:49:18.578+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T12:49:18.579+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2024-10-28T12:49:18.593+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@362efabd
+2024-10-28T12:49:18.594+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2024-10-28T12:49:18.640+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T12:49:18.665+05:30  INFO 30364 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:49:18.743+05:30  WARN 30364 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T12:49:19.634+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T12:49:19.654+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T12:49:19.659+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 1.582 seconds (process running for 1645.722)
+2024-10-28T12:49:19.661+05:30  INFO 30364 --- [Assignment] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-28T12:49:42.793+05:30  INFO 30364 --- [Assignment] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-28T12:49:42.942+05:30  INFO 30364 --- [Assignment] [Thread-35] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:49:42.943+05:30  INFO 30364 --- [Assignment] [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2024-10-28T12:49:42.951+05:30  INFO 30364 --- [Assignment] [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2024-10-28T12:49:43.050+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30364 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T12:49:43.050+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T12:49:43.370+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T12:49:43.396+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 3 JPA repository interfaces.
+2024-10-28T12:49:43.494+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T12:49:43.494+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T12:49:43.495+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T12:49:43.543+05:30  INFO 30364 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T12:49:43.543+05:30  INFO 30364 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 487 ms
+2024-10-28T12:49:43.576+05:30  INFO 30364 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T12:49:43.580+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T12:49:43.588+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T12:49:43.590+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2024-10-28T12:49:43.618+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48978ea1
+2024-10-28T12:49:43.618+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2024-10-28T12:49:43.667+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T12:49:43.672+05:30  INFO 30364 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:49:43.756+05:30  WARN 30364 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T12:49:44.602+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T12:49:44.616+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T12:49:44.621+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 1.61 seconds (process running for 1670.726)
+2024-10-28T12:49:44.623+05:30  INFO 30364 --- [Assignment] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-28T12:50:37.828+05:30  INFO 30364 --- [Assignment] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-28T12:50:37.952+05:30  INFO 30364 --- [Assignment] [Thread-39] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:50:37.953+05:30  INFO 30364 --- [Assignment] [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2024-10-28T12:50:37.959+05:30  INFO 30364 --- [Assignment] [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2024-10-28T12:50:38.034+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30364 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T12:50:38.035+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T12:50:38.241+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T12:50:38.261+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 3 JPA repository interfaces.
+2024-10-28T12:50:38.329+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T12:50:38.329+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T12:50:38.330+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T12:50:38.371+05:30  INFO 30364 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T12:50:38.372+05:30  INFO 30364 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 335 ms
+2024-10-28T12:50:38.406+05:30  INFO 30364 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T12:50:38.409+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T12:50:38.417+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T12:50:38.418+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2024-10-28T12:50:38.440+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection com.mysql.cj.jdbc.ConnectionImpl@185c4c63
+2024-10-28T12:50:38.440+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2024-10-28T12:50:38.483+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T12:50:38.490+05:30  INFO 30364 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:50:38.569+05:30  WARN 30364 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T12:50:39.279+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T12:50:39.293+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T12:50:39.297+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 1.291 seconds (process running for 1725.495)
+2024-10-28T12:50:39.298+05:30  INFO 30364 --- [Assignment] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-28T12:51:11.842+05:30  INFO 30364 --- [Assignment] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-28T12:51:11.957+05:30  INFO 30364 --- [Assignment] [Thread-43] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:51:11.958+05:30  INFO 30364 --- [Assignment] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2024-10-28T12:51:11.963+05:30  INFO 30364 --- [Assignment] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2024-10-28T12:51:12.041+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30364 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T12:51:12.042+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T12:51:12.271+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T12:51:12.290+05:30  INFO 30364 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
+2024-10-28T12:51:12.362+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T12:51:12.362+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T12:51:12.362+05:30  INFO 30364 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T12:51:12.404+05:30  INFO 30364 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T12:51:12.404+05:30  INFO 30364 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 360 ms
+2024-10-28T12:51:12.434+05:30  INFO 30364 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T12:51:12.438+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T12:51:12.447+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T12:51:12.448+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2024-10-28T12:51:12.473+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d74a6ed
+2024-10-28T12:51:12.473+05:30  INFO 30364 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2024-10-28T12:51:12.546+05:30  INFO 30364 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T12:51:12.554+05:30  INFO 30364 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:51:12.632+05:30  WARN 30364 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T12:51:13.474+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T12:51:13.492+05:30  INFO 30364 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T12:51:13.497+05:30  INFO 30364 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 1.486 seconds (process running for 1759.753)
+2024-10-28T12:51:13.499+05:30  INFO 30364 --- [Assignment] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-28T12:56:13.743+05:30  INFO 30364 --- [Assignment] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-10-28T12:56:13.856+05:30  INFO 30364 --- [Assignment] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T12:56:13.857+05:30  INFO 30364 --- [Assignment] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2024-10-28T12:56:13.864+05:30  INFO 30364 --- [Assignment] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2024-10-28T13:35:21.517+05:30  INFO 3520 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 3520 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T13:35:21.523+05:30  INFO 3520 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T13:35:21.608+05:30  INFO 3520 --- [Assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-28T13:35:21.609+05:30  INFO 3520 --- [Assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-28T13:35:23.079+05:30  INFO 3520 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T13:35:23.212+05:30  INFO 3520 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 3 JPA repository interfaces.
+2024-10-28T13:35:24.051+05:30  INFO 3520 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T13:35:24.070+05:30  INFO 3520 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T13:35:24.071+05:30  INFO 3520 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T13:35:24.238+05:30  INFO 3520 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T13:35:24.239+05:30  INFO 3520 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2629 ms
+2024-10-28T13:35:24.473+05:30  INFO 3520 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T13:35:24.570+05:30  INFO 3520 --- [Assignment] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T13:35:24.628+05:30  INFO 3520 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T13:35:25.094+05:30  INFO 3520 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T13:35:25.181+05:30  INFO 3520 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T13:35:25.715+05:30  INFO 3520 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7178105d
+2024-10-28T13:35:25.718+05:30  INFO 3520 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T13:35:27.398+05:30  INFO 3520 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T13:35:27.470+05:30  INFO 3520 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:35:27.900+05:30  INFO 3520 --- [Assignment] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T13:35:28.509+05:30  WARN 3520 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T13:35:30.562+05:30  INFO 3520 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T13:35:30.651+05:30  INFO 3520 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T13:35:30.669+05:30  INFO 3520 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 9.822 seconds (process running for 11.606)
+2024-10-28T13:48:35.023+05:30  INFO 27520 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Starting CustomerTransectionImplTest using Java 17.0.8.1 with PID 27520 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T13:48:35.027+05:30  INFO 27520 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T13:48:37.174+05:30  INFO 27520 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T13:48:37.366+05:30  INFO 27520 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 164 ms. Found 3 JPA repository interfaces.
+2024-10-28T13:48:41.549+05:30  INFO 27520 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T13:48:41.858+05:30  INFO 27520 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T13:48:42.066+05:30  INFO 27520 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T13:48:42.579+05:30  INFO 27520 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T13:48:42.709+05:30  INFO 27520 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T13:48:43.619+05:30  INFO 27520 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@383e6734
+2024-10-28T13:48:43.625+05:30  INFO 27520 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T13:48:46.210+05:30  INFO 27520 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T13:48:46.323+05:30  INFO 27520 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:48:47.021+05:30  INFO 27520 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T13:48:48.740+05:30  WARN 27520 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T13:48:52.864+05:30  INFO 27520 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T13:48:52.866+05:30  INFO 27520 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T13:48:52.869+05:30  INFO 27520 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-10-28T13:48:52.997+05:30  INFO 27520 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Started CustomerTransectionImplTest in 18.836 seconds (process running for 21.783)
+2024-10-28T13:48:53.436+05:30  INFO 27520 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:48:53.452+05:30  INFO 27520 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T13:48:53.499+05:30  INFO 27520 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T13:49:21.765+05:30  INFO 23532 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Starting CustomerTransectionImplTest using Java 17.0.8.1 with PID 23532 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T13:49:21.770+05:30  INFO 23532 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T13:49:23.796+05:30  INFO 23532 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T13:49:23.963+05:30  INFO 23532 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 143 ms. Found 3 JPA repository interfaces.
+2024-10-28T13:49:27.881+05:30  INFO 23532 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T13:49:28.109+05:30  INFO 23532 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T13:49:28.238+05:30  INFO 23532 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T13:49:28.744+05:30  INFO 23532 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T13:49:28.864+05:30  INFO 23532 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T13:49:29.649+05:30  INFO 23532 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8afce3
+2024-10-28T13:49:29.656+05:30  INFO 23532 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T13:49:32.322+05:30  INFO 23532 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T13:49:32.419+05:30  INFO 23532 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:49:33.058+05:30  INFO 23532 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T13:49:34.727+05:30  WARN 23532 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T13:49:39.061+05:30  INFO 23532 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T13:49:39.062+05:30  INFO 23532 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T13:49:39.066+05:30  INFO 23532 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-10-28T13:49:39.149+05:30  INFO 23532 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Started CustomerTransectionImplTest in 18.276 seconds (process running for 20.978)
+2024-10-28T13:49:39.479+05:30  INFO 23532 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:49:39.485+05:30  INFO 23532 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T13:49:39.518+05:30  INFO 23532 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T13:51:23.368+05:30  INFO 19768 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Starting CustomerTransectionImplTest using Java 17.0.8.1 with PID 19768 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T13:51:23.371+05:30  INFO 19768 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T13:51:25.472+05:30  INFO 19768 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T13:51:25.681+05:30  INFO 19768 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 172 ms. Found 3 JPA repository interfaces.
+2024-10-28T13:51:29.764+05:30  INFO 19768 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T13:51:30.059+05:30  INFO 19768 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T13:51:30.193+05:30  INFO 19768 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T13:51:30.683+05:30  INFO 19768 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T13:51:30.795+05:30  INFO 19768 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T13:51:31.694+05:30  INFO 19768 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b2acb12
+2024-10-28T13:51:31.701+05:30  INFO 19768 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T13:51:34.360+05:30  INFO 19768 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T13:51:34.547+05:30  INFO 19768 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:51:35.275+05:30  INFO 19768 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T13:51:36.982+05:30  WARN 19768 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T13:51:41.260+05:30  INFO 19768 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T13:51:41.261+05:30  INFO 19768 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T13:51:41.265+05:30  INFO 19768 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-10-28T13:51:41.357+05:30  INFO 19768 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Started CustomerTransectionImplTest in 18.82 seconds (process running for 21.512)
+2024-10-28T13:51:41.737+05:30  INFO 19768 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:51:41.743+05:30  INFO 19768 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T13:51:41.773+05:30  INFO 19768 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T13:52:26.527+05:30  INFO 3520 --- [Assignment] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-10-28T13:52:27.231+05:30  INFO 3520 --- [Assignment] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:52:27.239+05:30  INFO 3520 --- [Assignment] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T13:52:27.268+05:30  INFO 3520 --- [Assignment] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T13:52:38.651+05:30  INFO 26736 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Starting CustomerTransectionImplTest using Java 17.0.8.1 with PID 26736 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T13:52:38.655+05:30  INFO 26736 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T13:52:40.724+05:30  INFO 26736 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T13:52:40.925+05:30  INFO 26736 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 176 ms. Found 3 JPA repository interfaces.
+2024-10-28T13:52:44.577+05:30  INFO 26736 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T13:52:44.803+05:30  INFO 26736 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T13:52:44.942+05:30  INFO 26736 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T13:52:45.400+05:30  INFO 26736 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T13:52:45.505+05:30  INFO 26736 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T13:52:46.305+05:30  INFO 26736 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@998fbd4
+2024-10-28T13:52:46.310+05:30  INFO 26736 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T13:52:48.995+05:30  INFO 26736 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T13:52:49.104+05:30  INFO 26736 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:52:49.811+05:30  INFO 26736 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T13:52:51.494+05:30  WARN 26736 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T13:52:55.432+05:30  INFO 26736 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T13:52:55.433+05:30  INFO 26736 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T13:52:55.437+05:30  INFO 26736 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-10-28T13:52:55.544+05:30  INFO 26736 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Started CustomerTransectionImplTest in 17.79 seconds (process running for 20.864)
+2024-10-28T13:52:55.967+05:30  INFO 26736 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:52:55.973+05:30  INFO 26736 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T13:52:56.020+05:30  INFO 26736 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T13:53:51.422+05:30  INFO 26952 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Starting CustomerTransectionImplTest using Java 17.0.8.1 with PID 26952 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T13:53:51.425+05:30  INFO 26952 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T13:53:53.430+05:30  INFO 26952 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T13:53:53.626+05:30  INFO 26952 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 171 ms. Found 3 JPA repository interfaces.
+2024-10-28T13:53:57.512+05:30  INFO 26952 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T13:53:57.736+05:30  INFO 26952 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T13:53:57.866+05:30  INFO 26952 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T13:53:58.418+05:30  INFO 26952 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T13:53:58.562+05:30  INFO 26952 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T13:53:59.488+05:30  INFO 26952 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20a4cba7
+2024-10-28T13:53:59.494+05:30  INFO 26952 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T13:54:02.127+05:30  INFO 26952 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T13:54:02.251+05:30  INFO 26952 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:54:02.965+05:30  INFO 26952 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T13:54:04.543+05:30  WARN 26952 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T13:54:08.903+05:30  INFO 26952 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T13:54:08.905+05:30  INFO 26952 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T13:54:08.916+05:30  INFO 26952 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
+2024-10-28T13:54:09.047+05:30  INFO 26952 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Started CustomerTransectionImplTest in 18.601 seconds (process running for 21.285)
+2024-10-28T13:54:09.609+05:30  INFO 26952 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:54:09.621+05:30  INFO 26952 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T13:54:09.666+05:30  INFO 26952 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T13:55:05.120+05:30  INFO 5696 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Starting CustomerTransectionImplTest using Java 17.0.8.1 with PID 5696 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T13:55:05.125+05:30  INFO 5696 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T13:55:07.362+05:30  INFO 5696 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T13:55:07.553+05:30  INFO 5696 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 169 ms. Found 3 JPA repository interfaces.
+2024-10-28T13:55:12.080+05:30  INFO 5696 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T13:55:12.325+05:30  INFO 5696 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T13:55:12.462+05:30  INFO 5696 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T13:55:12.986+05:30  INFO 5696 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T13:55:13.104+05:30  INFO 5696 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T13:55:13.993+05:30  INFO 5696 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33bfe6d3
+2024-10-28T13:55:14.000+05:30  INFO 5696 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T13:55:16.877+05:30  INFO 5696 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T13:55:17.043+05:30  INFO 5696 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:55:17.816+05:30  INFO 5696 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T13:55:19.508+05:30  WARN 5696 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T13:55:23.627+05:30  INFO 5696 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T13:55:23.628+05:30  INFO 5696 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T13:55:23.632+05:30  INFO 5696 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-10-28T13:55:23.722+05:30  INFO 5696 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Started CustomerTransectionImplTest in 19.511 seconds (process running for 22.343)
+2024-10-28T13:55:23.929+05:30  INFO 5696 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:55:23.936+05:30  INFO 5696 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T13:55:23.994+05:30  INFO 5696 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T13:59:43.226+05:30  INFO 7828 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Starting CustomerTransectionImplTest using Java 17.0.8.1 with PID 7828 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T13:59:43.230+05:30  INFO 7828 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T13:59:45.468+05:30  INFO 7828 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T13:59:45.644+05:30  INFO 7828 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152 ms. Found 3 JPA repository interfaces.
+2024-10-28T13:59:49.487+05:30  INFO 7828 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T13:59:49.756+05:30  INFO 7828 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T13:59:49.926+05:30  INFO 7828 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T13:59:50.348+05:30  INFO 7828 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T13:59:50.510+05:30  INFO 7828 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T13:59:51.395+05:30  INFO 7828 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56dde9f7
+2024-10-28T13:59:51.402+05:30  INFO 7828 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T13:59:54.306+05:30  INFO 7828 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T13:59:54.413+05:30  INFO 7828 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T13:59:55.042+05:30  INFO 7828 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T13:59:56.601+05:30  WARN 7828 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T14:00:01.040+05:30  INFO 7828 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T14:00:01.042+05:30  INFO 7828 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T14:00:01.045+05:30  INFO 7828 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-10-28T14:00:01.140+05:30  INFO 7828 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Started CustomerTransectionImplTest in 18.782 seconds (process running for 21.853)
+2024-10-28T14:00:01.504+05:30  INFO 7828 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:00:01.517+05:30  INFO 7828 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T14:00:01.549+05:30  INFO 7828 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T14:00:28.354+05:30  INFO 21252 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Starting CustomerTransectionImplTest using Java 17.0.8.1 with PID 21252 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T14:00:28.359+05:30  INFO 21252 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T14:00:30.380+05:30  INFO 21252 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T14:00:30.573+05:30  INFO 21252 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 159 ms. Found 3 JPA repository interfaces.
+2024-10-28T14:00:34.523+05:30  INFO 21252 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T14:00:34.723+05:30  INFO 21252 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T14:00:34.858+05:30  INFO 21252 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T14:00:35.361+05:30  INFO 21252 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T14:00:35.526+05:30  INFO 21252 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T14:00:36.572+05:30  INFO 21252 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5dd6f517
+2024-10-28T14:00:36.580+05:30  INFO 21252 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T14:00:39.263+05:30  INFO 21252 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T14:00:39.379+05:30  INFO 21252 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:00:39.979+05:30  INFO 21252 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T14:00:41.574+05:30  WARN 21252 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T14:00:45.574+05:30  INFO 21252 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T14:00:45.575+05:30  INFO 21252 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T14:00:45.578+05:30  INFO 21252 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-10-28T14:00:45.679+05:30  INFO 21252 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Started CustomerTransectionImplTest in 18.132 seconds (process running for 21.064)
+2024-10-28T14:00:45.880+05:30  INFO 21252 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:00:45.886+05:30  INFO 21252 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T14:00:45.916+05:30  INFO 21252 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T14:46:46.482+05:30  INFO 24580 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Starting CustomerTransectionImplTest using Java 17.0.8.1 with PID 24580 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T14:46:46.487+05:30  INFO 24580 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T14:46:48.475+05:30  INFO 24580 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T14:46:48.626+05:30  INFO 24580 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130 ms. Found 3 JPA repository interfaces.
+2024-10-28T14:46:52.444+05:30  INFO 24580 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T14:46:52.709+05:30  INFO 24580 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T14:46:52.858+05:30  INFO 24580 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T14:46:53.408+05:30  INFO 24580 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T14:46:53.543+05:30  INFO 24580 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T14:46:54.461+05:30  INFO 24580 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33bfe6d3
+2024-10-28T14:46:54.469+05:30  INFO 24580 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T14:46:57.224+05:30  INFO 24580 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T14:46:57.347+05:30  INFO 24580 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:46:58.074+05:30  INFO 24580 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T14:46:59.860+05:30  WARN 24580 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T14:47:03.797+05:30  INFO 24580 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T14:47:03.799+05:30  INFO 24580 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T14:47:03.803+05:30  INFO 24580 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-10-28T14:47:03.887+05:30  INFO 24580 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Started CustomerTransectionImplTest in 18.34 seconds (process running for 21.165)
+2024-10-28T14:47:04.174+05:30  INFO 24580 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:47:04.180+05:30  INFO 24580 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T14:47:04.216+05:30  INFO 24580 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T14:50:21.972+05:30  INFO 24368 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Starting CustomerTransectionImplTest using Java 17.0.8.1 with PID 24368 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T14:50:21.975+05:30  INFO 24368 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T14:50:24.072+05:30  INFO 24368 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T14:50:24.256+05:30  INFO 24368 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 144 ms. Found 3 JPA repository interfaces.
+2024-10-28T14:50:28.072+05:30  INFO 24368 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T14:50:28.297+05:30  INFO 24368 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T14:50:28.442+05:30  INFO 24368 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T14:50:28.962+05:30  INFO 24368 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T14:50:29.138+05:30  INFO 24368 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T14:50:30.218+05:30  INFO 24368 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ed35f24
+2024-10-28T14:50:30.224+05:30  INFO 24368 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T14:50:33.102+05:30  INFO 24368 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T14:50:33.270+05:30  INFO 24368 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:50:33.937+05:30  INFO 24368 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T14:50:35.543+05:30  WARN 24368 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T14:50:39.969+05:30  INFO 24368 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T14:50:39.970+05:30  INFO 24368 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T14:50:39.974+05:30  INFO 24368 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-10-28T14:50:40.084+05:30  INFO 24368 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Started CustomerTransectionImplTest in 18.903 seconds (process running for 22.129)
+2024-10-28T14:50:40.346+05:30  INFO 24368 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:50:40.355+05:30  INFO 24368 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T14:50:40.400+05:30  INFO 24368 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T14:50:58.185+05:30  INFO 13572 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Starting CustomerTransectionImplTest using Java 17.0.8.1 with PID 13572 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T14:50:58.190+05:30  INFO 13572 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T14:51:00.291+05:30  INFO 13572 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T14:51:00.492+05:30  INFO 13572 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 158 ms. Found 3 JPA repository interfaces.
+2024-10-28T14:51:04.355+05:30  INFO 13572 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T14:51:04.580+05:30  INFO 13572 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T14:51:04.723+05:30  INFO 13572 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T14:51:05.200+05:30  INFO 13572 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T14:51:05.318+05:30  INFO 13572 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T14:51:06.199+05:30  INFO 13572 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6be80629
+2024-10-28T14:51:06.209+05:30  INFO 13572 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T14:51:08.930+05:30  INFO 13572 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T14:51:09.034+05:30  INFO 13572 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:51:09.695+05:30  INFO 13572 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T14:51:11.227+05:30  WARN 13572 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T14:51:15.467+05:30  INFO 13572 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T14:51:15.468+05:30  INFO 13572 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T14:51:15.472+05:30  INFO 13572 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-10-28T14:51:15.572+05:30  INFO 13572 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Started CustomerTransectionImplTest in 18.248 seconds (process running for 21.177)
+2024-10-28T14:51:15.810+05:30  INFO 13572 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:51:15.816+05:30  INFO 13572 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T14:51:15.855+05:30  INFO 13572 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T14:52:13.015+05:30  INFO 33188 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Starting CustomerTransectionImplTest using Java 17.0.8.1 with PID 33188 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T14:52:13.019+05:30  INFO 33188 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T14:52:15.063+05:30  INFO 33188 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T14:52:15.259+05:30  INFO 33188 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 160 ms. Found 3 JPA repository interfaces.
+2024-10-28T14:52:19.487+05:30  INFO 33188 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T14:52:19.700+05:30  INFO 33188 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T14:52:19.835+05:30  INFO 33188 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T14:52:20.342+05:30  INFO 33188 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T14:52:20.452+05:30  INFO 33188 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T14:52:21.345+05:30  INFO 33188 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8afce3
+2024-10-28T14:52:21.350+05:30  INFO 33188 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T14:52:23.830+05:30  INFO 33188 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T14:52:23.949+05:30  INFO 33188 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:52:24.613+05:30  INFO 33188 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T14:52:26.256+05:30  WARN 33188 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T14:52:30.732+05:30  INFO 33188 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T14:52:30.734+05:30  INFO 33188 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T14:52:30.738+05:30  INFO 33188 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-10-28T14:52:30.832+05:30  INFO 33188 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Started CustomerTransectionImplTest in 18.672 seconds (process running for 21.376)
+2024-10-28T14:52:31.151+05:30  INFO 33188 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:52:31.158+05:30  INFO 33188 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T14:52:31.192+05:30  INFO 33188 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T14:52:48.494+05:30  INFO 33752 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Starting CustomerTransectionImplTest using Java 17.0.8.1 with PID 33752 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T14:52:48.498+05:30  INFO 33752 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T14:52:50.626+05:30  INFO 33752 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T14:52:50.812+05:30  INFO 33752 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 167 ms. Found 3 JPA repository interfaces.
+2024-10-28T14:52:56.631+05:30  INFO 33752 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T14:52:57.347+05:30  INFO 33752 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T14:52:57.536+05:30  INFO 33752 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T14:52:58.116+05:30  INFO 33752 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T14:52:58.273+05:30  INFO 33752 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T14:52:59.276+05:30  INFO 33752 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@654db80b
+2024-10-28T14:52:59.303+05:30  INFO 33752 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T14:53:03.590+05:30  INFO 33752 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T14:53:03.716+05:30  INFO 33752 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:53:04.470+05:30  INFO 33752 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T14:53:06.063+05:30  WARN 33752 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T14:53:10.135+05:30  INFO 33752 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T14:53:10.136+05:30  INFO 33752 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T14:53:10.140+05:30  INFO 33752 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-10-28T14:53:10.234+05:30  INFO 33752 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Started CustomerTransectionImplTest in 22.585 seconds (process running for 25.525)
+2024-10-28T14:53:10.491+05:30  INFO 33752 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:53:10.497+05:30  INFO 33752 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T14:53:10.536+05:30  INFO 33752 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T14:53:52.483+05:30  INFO 1492 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Starting CustomerTransectionImplTest using Java 17.0.8.1 with PID 1492 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T14:53:52.488+05:30  INFO 1492 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T14:53:54.681+05:30  INFO 1492 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T14:53:54.908+05:30  INFO 1492 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 202 ms. Found 3 JPA repository interfaces.
+2024-10-28T14:53:59.289+05:30  INFO 1492 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T14:53:59.525+05:30  INFO 1492 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T14:53:59.659+05:30  INFO 1492 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T14:54:00.167+05:30  INFO 1492 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T14:54:00.291+05:30  INFO 1492 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T14:54:01.066+05:30  INFO 1492 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6be80629
+2024-10-28T14:54:01.074+05:30  INFO 1492 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T14:54:03.543+05:30  INFO 1492 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T14:54:03.650+05:30  INFO 1492 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:54:04.316+05:30  INFO 1492 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T14:54:05.868+05:30  WARN 1492 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T14:54:10.281+05:30  INFO 1492 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T14:54:10.282+05:30  INFO 1492 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T14:54:10.286+05:30  INFO 1492 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-10-28T14:54:10.407+05:30  INFO 1492 --- [Assignment] [main] com.infy.CustomerTransectionImplTest     : Started CustomerTransectionImplTest in 18.847 seconds (process running for 21.725)
+2024-10-28T14:54:10.721+05:30  INFO 1492 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:54:10.728+05:30  INFO 1492 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T14:54:10.775+05:30  INFO 1492 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T14:54:59.411+05:30  INFO 30244 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30244 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T14:54:59.416+05:30  INFO 30244 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T14:54:59.508+05:30  INFO 30244 --- [Assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-28T14:54:59.509+05:30  INFO 30244 --- [Assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-28T14:55:00.980+05:30  INFO 30244 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T14:55:01.108+05:30  INFO 30244 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 3 JPA repository interfaces.
+2024-10-28T14:55:02.331+05:30  INFO 30244 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T14:55:02.360+05:30  INFO 30244 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T14:55:02.361+05:30  INFO 30244 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T14:55:02.574+05:30  INFO 30244 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T14:55:02.575+05:30  INFO 30244 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3064 ms
+2024-10-28T14:55:02.883+05:30  INFO 30244 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T14:55:03.001+05:30  INFO 30244 --- [Assignment] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T14:55:03.071+05:30  INFO 30244 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T14:55:03.615+05:30  INFO 30244 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T14:55:03.674+05:30  INFO 30244 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T14:55:04.180+05:30  INFO 30244 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e783571
+2024-10-28T14:55:04.183+05:30  INFO 30244 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T14:55:05.696+05:30  INFO 30244 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T14:55:05.774+05:30  INFO 30244 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:55:06.162+05:30  INFO 30244 --- [Assignment] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T14:55:06.860+05:30  WARN 30244 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T14:55:09.327+05:30  INFO 30244 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T14:55:09.456+05:30  INFO 30244 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T14:55:09.484+05:30  INFO 30244 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 10.718 seconds (process running for 12.768)
+2024-10-28T14:55:27.417+05:30  INFO 30244 --- [Assignment] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28T14:55:27.433+05:30  INFO 30244 --- [Assignment] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-28T14:55:27.433+05:30  INFO 30244 --- [Assignment] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-28T14:55:27.590+05:30  INFO 30244 --- [Assignment] [http-nio-8080-exec-2] com.infy.Controller.CustomerController   : Login Api call CustomerController
+2024-10-28T14:55:27.590+05:30  INFO 30244 --- [Assignment] [http-nio-8080-exec-2] com.infy.Service.CustomerServiceImpl     : login method called from CustomerServiceImpl
+2024-10-28T14:56:41.300+05:30  INFO 30244 --- [Assignment] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-28T14:56:41.526+05:30  INFO 30244 --- [Assignment] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:56:41.533+05:30  INFO 30244 --- [Assignment] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T14:56:41.551+05:30  INFO 30244 --- [Assignment] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T14:56:41.716+05:30  INFO 30244 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30244 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T14:56:41.718+05:30  INFO 30244 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T14:56:42.256+05:30  INFO 30244 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T14:56:42.315+05:30  INFO 30244 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+2024-10-28T14:56:42.519+05:30  INFO 30244 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T14:56:42.520+05:30  INFO 30244 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T14:56:42.521+05:30  INFO 30244 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T14:56:42.639+05:30  INFO 30244 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T14:56:42.640+05:30  INFO 30244 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 919 ms
+2024-10-28T14:56:42.722+05:30  INFO 30244 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T14:56:42.731+05:30  INFO 30244 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T14:56:42.757+05:30  INFO 30244 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T14:56:42.761+05:30  INFO 30244 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-10-28T14:56:42.811+05:30  INFO 30244 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c14f2c0
+2024-10-28T14:56:42.813+05:30  INFO 30244 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-10-28T14:56:42.947+05:30  INFO 30244 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T14:56:42.965+05:30  INFO 30244 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:56:43.121+05:30  WARN 30244 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T14:56:44.468+05:30  INFO 30244 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T14:56:44.509+05:30  INFO 30244 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T14:56:44.516+05:30  INFO 30244 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 2.88 seconds (process running for 107.8)
+2024-10-28T14:56:44.520+05:30  INFO 30244 --- [Assignment] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-28T14:57:06.252+05:30  INFO 30244 --- [Assignment] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-10-28T14:57:06.483+05:30  INFO 30244 --- [Assignment] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:57:06.485+05:30  INFO 30244 --- [Assignment] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-10-28T14:57:06.499+05:30  INFO 30244 --- [Assignment] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-10-28T14:57:06.659+05:30  INFO 30244 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30244 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T14:57:06.660+05:30  INFO 30244 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T14:57:06.983+05:30  WARN 30244 --- [Assignment] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+2024-10-28T14:57:06.992+05:30  INFO 30244 --- [Assignment] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-28T14:57:07.027+05:30 ERROR 30244 --- [Assignment] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-3.3.5.jar:3.3.5]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:429) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at com.infy.AssignmentApplication.main(AssignmentApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.infy.configuration.SecurityConfiguration] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@591c9d49]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:750) ~[spring-beans-6.1.14.jar:6.1.14]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:749) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:682) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:653) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1687) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:562) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:247) ~[spring-boot-autoconfigure-3.3.5.jar:3.3.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:240) ~[spring-boot-autoconfigure-3.3.5.jar:3.3.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:230) ~[spring-boot-autoconfigure-3.3.5.jar:3.3.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:183) ~[spring-boot-autoconfigure-3.3.5.jar:3.3.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:158) ~[spring-boot-autoconfigure-3.3.5.jar:3.3.5]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-3.3.5.jar:3.3.5]
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: HttpSecurity
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.14.jar:6.1.14]
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: HttpSecurity
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 42 common frames omitted
+
+2024-10-28T14:57:13.946+05:30  INFO 30244 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 30244 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T14:57:13.947+05:30  INFO 30244 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T14:57:14.272+05:30  INFO 30244 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T14:57:14.315+05:30  INFO 30244 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2024-10-28T14:57:14.435+05:30  INFO 30244 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T14:57:14.436+05:30  INFO 30244 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T14:57:14.437+05:30  INFO 30244 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T14:57:14.536+05:30  INFO 30244 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T14:57:14.537+05:30  INFO 30244 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 587 ms
+2024-10-28T14:57:14.592+05:30  INFO 30244 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T14:57:14.600+05:30  INFO 30244 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T14:57:14.616+05:30  INFO 30244 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T14:57:14.618+05:30  INFO 30244 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-10-28T14:57:14.665+05:30  INFO 30244 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47b09638
+2024-10-28T14:57:14.667+05:30  INFO 30244 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-10-28T14:57:14.775+05:30  INFO 30244 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T14:57:14.788+05:30  INFO 30244 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:57:14.939+05:30  WARN 30244 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T14:57:16.178+05:30  INFO 30244 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T14:57:16.206+05:30  INFO 30244 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T14:57:16.213+05:30  INFO 30244 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 2.318 seconds (process running for 139.497)
+2024-10-28T14:57:16.216+05:30  INFO 30244 --- [Assignment] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-28T14:58:15.585+05:30  INFO 30244 --- [Assignment] [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-10-28T14:58:15.585+05:30  INFO 30244 --- [Assignment] [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-10-28T14:58:15.942+05:30  INFO 30244 --- [Assignment] [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T14:58:15.943+05:30  INFO 30244 --- [Assignment] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-10-28T14:58:15.960+05:30  INFO 30244 --- [Assignment] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-10-28T15:16:45.988+05:30  INFO 14916 --- [Assignment] [main] com.infy.CustomerTest                    : Starting CustomerTest using Java 17.0.8.1 with PID 14916 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T15:16:45.991+05:30  INFO 14916 --- [Assignment] [main] com.infy.CustomerTest                    : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T15:16:48.070+05:30  INFO 14916 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T15:16:48.245+05:30  INFO 14916 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148 ms. Found 3 JPA repository interfaces.
+2024-10-28T15:16:52.570+05:30  INFO 14916 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T15:16:52.854+05:30  INFO 14916 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T15:16:53.002+05:30  INFO 14916 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T15:16:53.451+05:30  INFO 14916 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T15:16:53.571+05:30  INFO 14916 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T15:16:54.409+05:30  INFO 14916 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@362b384c
+2024-10-28T15:16:54.416+05:30  INFO 14916 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T15:16:57.273+05:30  INFO 14916 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T15:16:57.406+05:30  INFO 14916 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T15:16:58.058+05:30  INFO 14916 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T15:16:59.692+05:30  WARN 14916 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T15:17:04.217+05:30  INFO 14916 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T15:17:04.219+05:30  INFO 14916 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T15:17:04.222+05:30  INFO 14916 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-10-28T15:17:04.310+05:30  INFO 14916 --- [Assignment] [main] com.infy.CustomerTest                    : Started CustomerTest in 19.272 seconds (process running for 22.108)
+2024-10-28T15:17:04.613+05:30  INFO 14916 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T15:17:04.618+05:30  INFO 14916 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T15:17:04.651+05:30  INFO 14916 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T15:18:24.220+05:30  INFO 26652 --- [Assignment] [main] com.infy.CustomerTest                    : Starting CustomerTest using Java 17.0.8.1 with PID 26652 (started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T15:18:24.225+05:30  INFO 26652 --- [Assignment] [main] com.infy.CustomerTest                    : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T15:18:26.403+05:30  INFO 26652 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T15:18:26.576+05:30  INFO 26652 --- [Assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151 ms. Found 3 JPA repository interfaces.
+2024-10-28T15:18:30.833+05:30  INFO 26652 --- [Assignment] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T15:18:31.067+05:30  INFO 26652 --- [Assignment] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T15:18:31.216+05:30  INFO 26652 --- [Assignment] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T15:18:31.704+05:30  INFO 26652 --- [Assignment] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T15:18:31.822+05:30  INFO 26652 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T15:18:32.679+05:30  INFO 26652 --- [Assignment] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7dc92a06
+2024-10-28T15:18:32.686+05:30  INFO 26652 --- [Assignment] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T15:18:35.523+05:30  INFO 26652 --- [Assignment] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T15:18:35.657+05:30  INFO 26652 --- [Assignment] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T15:18:36.332+05:30  INFO 26652 --- [Assignment] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T15:18:38.701+05:30  WARN 26652 --- [Assignment] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T15:18:43.132+05:30  INFO 26652 --- [Assignment] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-28T15:18:43.134+05:30  INFO 26652 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-28T15:18:43.137+05:30  INFO 26652 --- [Assignment] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-10-28T15:18:43.216+05:30  INFO 26652 --- [Assignment] [main] com.infy.CustomerTest                    : Started CustomerTest in 19.946 seconds (process running for 22.986)
+2024-10-28T15:18:43.482+05:30  INFO 26652 --- [Assignment] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T15:18:43.488+05:30  INFO 26652 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T15:18:43.520+05:30  INFO 26652 --- [Assignment] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T15:33:46.303+05:30  INFO 28008 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Starting AssignmentApplication using Java 17.0.8.1 with PID 28008 (C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment\target\classes started by sagar.chimankar in C:\Users\sagar.chimankar\Documents\workspaceEclipse\Assignment)
+2024-10-28T15:33:46.309+05:30  INFO 28008 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T15:33:46.494+05:30  INFO 28008 --- [Assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-28T15:33:46.495+05:30  INFO 28008 --- [Assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-28T15:33:48.208+05:30  INFO 28008 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T15:33:48.382+05:30  INFO 28008 --- [Assignment] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 155 ms. Found 3 JPA repository interfaces.
+2024-10-28T15:33:49.254+05:30  INFO 28008 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T15:33:49.283+05:30  INFO 28008 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T15:33:49.284+05:30  INFO 28008 --- [Assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T15:33:49.445+05:30  INFO 28008 --- [Assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T15:33:49.446+05:30  INFO 28008 --- [Assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2949 ms
+2024-10-28T15:33:49.714+05:30  INFO 28008 --- [Assignment] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T15:33:49.836+05:30  INFO 28008 --- [Assignment] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-28T15:33:49.902+05:30  INFO 28008 --- [Assignment] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T15:33:50.457+05:30  INFO 28008 --- [Assignment] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T15:33:50.519+05:30  INFO 28008 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T15:33:51.008+05:30  INFO 28008 --- [Assignment] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ddf65b8
+2024-10-28T15:33:51.012+05:30  INFO 28008 --- [Assignment] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T15:33:52.511+05:30  INFO 28008 --- [Assignment] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T15:33:52.594+05:30  INFO 28008 --- [Assignment] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T15:33:53.039+05:30  INFO 28008 --- [Assignment] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-28T15:33:53.678+05:30  WARN 28008 --- [Assignment] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T15:33:55.651+05:30  INFO 28008 --- [Assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T15:33:55.737+05:30  INFO 28008 --- [Assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-28T15:33:55.752+05:30  INFO 28008 --- [Assignment] [restartedMain] com.infy.AssignmentApplication           : Started AssignmentApplication in 10.423 seconds (process running for 12.745)
+2024-10-28T15:34:00.431+05:30  INFO 28008 --- [Assignment] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-10-28T15:34:00.669+05:30  INFO 28008 --- [Assignment] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T15:34:00.674+05:30  INFO 28008 --- [Assignment] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T15:34:00.691+05:30  INFO 28008 --- [Assignment] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
