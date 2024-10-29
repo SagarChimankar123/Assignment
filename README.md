@@ -7,8 +7,10 @@ A retailer offers a rewards program to its customers, awarding points based on e
 - Spring Boot
 - Spring Data JPA
 - Mysql db
-- Maven
 - RESTful API
+- Swagger open api
+- Logger
+- spring security
 
 ### Prerequisites
 - Java 17 
