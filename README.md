@@ -23,7 +23,7 @@ mvn clean install
 ### Configuration .property file
   spring.application.name=Assignment
 
-# MySQL Database Configuration
+#### MySQL Database Configuration
 spring.datasource.url=jdbc:mysql://localhost:3306/assignment
 spring.datasource.username=root
 spring.datasource.password=Click@12345
