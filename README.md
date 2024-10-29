@@ -6,13 +6,13 @@ A retailer offers a rewards program to its customers, awarding points based on e
 ### Technologies Used
 - Spring Boot
 - Spring Data JPA
-- H2 Database (for development)
+- Mysql db
 - Maven
 - RESTful API
 
 ### Prerequisites
-- Java 11 or higher
-- spring boot 3.3.2
+- Java 17 or higher
+- spring boot 3.3.5
 
 ### Clone the repository
 git clone https://github.com/SagarChimankar123/Assignment
