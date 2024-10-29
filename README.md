@@ -11,7 +11,7 @@ A retailer offers a rewards program to its customers, awarding points based on e
 - RESTful API
 
 ### Prerequisites
-- Java 17 or higher
+- Java 17 
 - spring boot 3.3.5
 
 ### Clone the repository
