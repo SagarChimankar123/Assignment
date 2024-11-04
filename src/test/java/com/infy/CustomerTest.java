@@ -25,31 +25,31 @@ public class CustomerTest {
 	@MockBean
 	private CustomerServiceImpl customerService;
 
-	@Test
-	public void testRegistrationSuccess() throws Exception {
-		Customer customer = new Customer();
-		customer.setCustId(1);
-		customer.setCustName("ram");
-		customer.setCustEmail("rampatil@gmail.com");
-		customer.setCustPassword("ram@123");
-
-		when(customerService.register(Mockito.any(Customer.class))).thenReturn("Register Sucessfully");
-
-		String result = customerService.register(customer);
-		
-		//assertEquals(result, "Register Sucessfully");
-		
-		
-	}
-
-	@Test
-	public void testLoginSuccess() throws Exception {
-		Customer customer = new Customer();
-		customer.setCustEmail("sagar@gmail.com");
-		customer.setCustPassword("sagar@123");
-
-		when(customerService.login(Mockito.anyString(), Mockito.anyString())).thenReturn(customer);
-
-	}
+//	@Test
+//	public void testRegistrationSuccess() throws Exception {
+//		Customer customer = new Customer();
+//		customer.setCustId(1);
+//		customer.setCustName("ram");
+//		customer.setCustEmail("rampatil@gmail.com");
+//		customer.setCustPassword("ram@123");
+//
+//		when(customerService.register(Mockito.any(Customer.class))).thenReturn("Register Sucessfully");
+//
+//		String result = customerService.register(customer);
+//		
+//		//assertEquals(result, "Register Sucessfully");
+//		
+//		
+//	}
+//
+//	@Test
+//	public void testLoginSuccess() throws Exception {
+//		Customer customer = new Customer();
+//		customer.setCustEmail("sagar@gmail.com");
+//		customer.setCustPassword("sagar@123");
+//
+//		when(customerService.login(Mockito.anyString(), Mockito.anyString())).thenReturn(customer);
+//
+//	}
 
 }

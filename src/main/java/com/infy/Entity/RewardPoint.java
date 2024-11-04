@@ -1,5 +1,7 @@
 package com.infy.Entity;
 
+import java.time.Month;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -68,5 +70,6 @@ public class RewardPoint {
 		return "RewardPoint [rewareId=" + rewareId + ", custId=" + custId + ", month=" + month + ", year=" + year
 				+ ", point=" + point + "]";
 	}
+	
 		
 }

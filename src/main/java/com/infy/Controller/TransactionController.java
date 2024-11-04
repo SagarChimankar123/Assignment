@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.infy.Entity.CustomerTransection;
-import com.infy.Service.CustomerTransectionImpl;
+import com.infy.Entity.CustomerTransaction;
+import com.infy.Service.CustomerTransactionImpl;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
@@ -23,17 +23,17 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @RestController
 @RequestMapping("/transection")
-public class TransectionController {
+public class TransactionController {
 	
 	@Autowired
-	CustomerTransectionImpl custTran;
+	CustomerTransactionImpl custTran;
 	
 	
 	@Tag(name="add data in CustomerTransection")
 	@PostMapping(value="/add" , 
 			consumes = {"application/json","application/xml"},
 			produces = {"application/xml","application/json"})
-	public ResponseEntity<String> addTransection(@RequestBody CustomerTransection custTransection){
+	public ResponseEntity<String> addTransection(@RequestBody CustomerTransaction custTransection){
 		log.info("addTransection API call from TransectionController class");
 		
 		String massage = custTran.upsertTransection(custTransection);
@@ -42,10 +42,10 @@ public class TransectionController {
 	
 	@Tag(name="get data by id in CustomerTransection")
 	@GetMapping("/get/{id}")
-	public ResponseEntity<CustomerTransection> getTransection(@PathVariable("id") Integer tranId) {
+	public ResponseEntity<CustomerTransaction> getTransection(@PathVariable("id") Integer tranId) {
 		log.info("getTransection API call from TransectionController class");
 		
-		CustomerTransection tran = custTran.getDatabyId(tranId);
+		CustomerTransaction tran = custTran.getDatabyId(tranId);
 		return new ResponseEntity<>(tran,HttpStatus.OK);
 	}
 	
@@ -60,7 +60,7 @@ public class TransectionController {
 	
 	@Tag(name="update data in CustomerTransection")
 	@PutMapping("/update")
-	public ResponseEntity<String> UpdateTransection(@RequestBody CustomerTransection tran) {
+	public ResponseEntity<String> UpdateTransection(@RequestBody CustomerTransaction tran) {
 		log.info("UpdateTransection API call from TransectionController class");
 		
 		String addTransection = custTran.upsertTransection(tran);
@@ -69,10 +69,10 @@ public class TransectionController {
 	
 	@Tag(name="Last three months transection from current date")
 	@GetMapping("/lastRecord")
-	public ResponseEntity<List<CustomerTransection>> gatLastRecord() {
+	public ResponseEntity<List<CustomerTransaction>> gatLastRecord() {
 		log.info("gatLastRecord API call from TransectionController class");
 		
-		List<CustomerTransection> lastRecord = custTran.getLastRecord();
+		List<CustomerTransaction> lastRecord = custTran.getLastRecord();
 		return new ResponseEntity<>(lastRecord,HttpStatus.OK);
 	}
 	

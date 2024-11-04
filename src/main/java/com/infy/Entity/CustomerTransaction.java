@@ -13,7 +13,7 @@ import jakarta.validation.constraints.Min;
 
 @Entity
 @Table(name="CustomerTransection")
-public class CustomerTransection {
+public class CustomerTransaction {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY	)
@@ -50,7 +50,7 @@ public class CustomerTransection {
 	public void setTranDate(LocalDate tranDate) {
 		this.tranDate = tranDate;
 	}
-	public CustomerTransection(Integer tranId, Integer custId, Integer tranAmount, LocalDate tranDate) {
+	public CustomerTransaction(Integer tranId, Integer custId, Integer tranAmount, LocalDate tranDate) {
 		super();
 		this.tranId = tranId;
 		this.custId = custId;
@@ -60,7 +60,7 @@ public class CustomerTransection {
 	
 	
 	
-	public CustomerTransection() {
+	public CustomerTransaction() {
 		
 	}
 	

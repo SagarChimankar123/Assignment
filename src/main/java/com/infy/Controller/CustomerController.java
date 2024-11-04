@@ -48,7 +48,6 @@ public class CustomerController {
 		Customer c = customerservice.login(login.getCustEmail(), login.getCustPassword());
 		return new ResponseEntity<Customer>(c,HttpStatus.OK);
 		 
-		
 	}
 	
 	

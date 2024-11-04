@@ -8,24 +8,24 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.infy.Entity.CustomerTransection;
-import com.infy.Repository.CustomerTransectionRepo;
+import com.infy.Entity.CustomerTransaction;
+import com.infy.Repository.CustomerTransactionRepo;
 import com.infy.exception.IdNotFound;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
-public class CustomerTransectionImpl implements CustomerTran {
+public class CustomerTransactionImpl implements CustomerTran {
 	
 	@Autowired
-	CustomerTransectionRepo custTransRepo;
+	CustomerTransactionRepo custTransRepo;
 
 	@Override
-	public String upsertTransection(CustomerTransection custTran) {
+	public String upsertTransection(CustomerTransaction custTran) {
 		log.info("upsertTransection method called from CustomerTransectionImpl class");
 		
-		CustomerTransection cust=custTran;
+		CustomerTransaction cust=custTran;
 		if(cust.getTranId()==null) {
 			custTransRepo.save(custTran);
 			return "Save Transection";
@@ -38,10 +38,10 @@ public class CustomerTransectionImpl implements CustomerTran {
 	}
 
 	@Override
-	public CustomerTransection getDatabyId(Integer TranId) {
+	public CustomerTransaction getDatabyId(Integer TranId) {
 		log.info("getDatabyId method called from CustomerTransectionImpl class");
 		
-		Optional<CustomerTransection> trans = custTransRepo.findById(TranId);
+		Optional<CustomerTransaction> trans = custTransRepo.findById(TranId);
 		if(trans.isEmpty()) {
 			throw new IdNotFound();
 		}
@@ -64,13 +64,13 @@ public class CustomerTransectionImpl implements CustomerTran {
 	}
 
 	@Override
-	public List<CustomerTransection> getLastRecord() {
+	public List<CustomerTransaction> getLastRecord() {
 		log.info("getLastRecord method called from CustomerTransectionImpl class");
 		
 		
 		LocalDateTime threeMonthAgo = LocalDateTime.now().minusMonths(3);
 		LocalDate date=threeMonthAgo.toLocalDate();
-		List<CustomerTransection> lastThreeMonthData = custTransRepo.getLastThreeMonthData(date);
+		List<CustomerTransaction> lastThreeMonthData = custTransRepo.getLastThreeMonthData(date);
 		return lastThreeMonthData;
 	}
 	
